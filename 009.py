@@ -1,0 +1,5 @@
+n = int(input('Digite um valor para ver sua tabuada: '))
+print('_'*12)
+print('{0} X  1 = {1} \n{0} X  2 = {2} \n{0} X  3 = {3} \n{0} X  4 = {4} \n{0} X  5 = {5} \n'.format(n, n*1, n*2, n*3, n*4, n*5), end='')
+print('{0} X  6 = {1} \n{0} X  7 = {2} \n{0} X  8 = {3} \n{0} X  9 = {4} \n{0} X 10 = {5} \n'.format(n, n*6, n*7, n*8, n*9, n*10), end='')
+print('><'*6)
